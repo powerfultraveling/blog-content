@@ -1,0 +1,19 @@
+{
+  "name": "blog-content",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "generate-meta": "node utils/generate-meta-data.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/powerfultraveling/blog-content.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/powerfultraveling/blog-content/issues"
+  },
+  "homepage": "https://github.com/powerfultraveling/blog-content#readme",
+  "description": ""
+}
