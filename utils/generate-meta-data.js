@@ -64,6 +64,7 @@ function scanArticles(dir, basePath = "") {
         articles.push({
           ...metadata,
           path: relativePath,
+          fileName: item,
           category: metadata.category || path.dirname(relativePath),
         });
       }
@@ -100,6 +101,7 @@ function generateMeta() {
       title: article.title,
       date: article.date,
       category: article.category,
+      fileName: article.fileName,
       path: article.path,
       tags: article.tags,
       description: article.description,
